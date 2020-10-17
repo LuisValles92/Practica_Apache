@@ -1,0 +1,155 @@
+/* INDEX.PHP */
+
+.log_in_body {
+    background-color: white;
+}
+
+.log_in_main {
+    background-color: #ebebeb;
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.log_in_header {
+    background-color: #2288dd;
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.log_in_li {
+    list-style-type: none;
+    margin-top: 19px;
+}
+
+.log_in_input {
+    width: 450px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.log_in_input_submit {
+    background-color: #2288dd;
+    color: white;
+    width: 450px;
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+/* TIRADA_DADOS.PHP, SUMAR_7.PHP, PAR_IMPAR.PHP, ACERCA_DE.PHP */
+
+.menu_body {
+    background-color: #ebebeb;
+}
+
+.menu_main {
+    background-color: white;
+    position: relative;
+    height: 400px;
+    width: 500px;
+    top: 49.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.menu_header {
+    background-color: #2c3e50;
+    color: white;
+}
+
+h1 {
+    font-family: 'Sevillana', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+nav {
+    background-color: #34495e;
+    width: 400px;
+    border-radius: 25px;
+    padding: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_li_0 {
+    background-color: #1abc9c;
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+.menu_li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenido_div {
+    padding: 10;
+    font-size: 20px;
+}
+
+
+/* SUMAR_7.PHP */
+
+.menu_li_1 {
+    background-color: #e74c3c;
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+.contenido2_div {
+    padding: 40;
+    font-size: 20px;
+}
+
+
+/* PAR_IMPAR.PHP */
+
+.menu_li_2 {
+    background-color: orange;
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+.contenido3_div {
+    padding: 26;
+    font-size: 20px;
+}
+
+.par_impar_input_submit {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 14px;
+    padding: 6px;
+}
+
+
+/* ACERCA_DE.PHP */
+
+.menu_li_3 {
+    background-color: black;
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+.contenido4_div {
+    padding: 22;
+    font-size: 20px;
+}
