@@ -25,10 +25,10 @@ if (isset($_SESSION['numero_intentos'])) {
         <form name="mi_formulario" action="" method="POST">
             <header class="log_in_header">LOG IN</header>
             <li class="log_in_li">
-                <input class="log_in_input" name="email" type="text" placeholder="Email">
+                <input required class="log_in_input" name="email" type="text" placeholder="Email">
             </li>
             <li class="log_in_li">
-                <input class="log_in_input" name="pass" type="password" placeholder="Password">
+                <input required class="log_in_input" name="pass" type="password" placeholder="Password">
             </li>
             <li class="log_in_li">
                 <input class="log_in_input_submit" name="login" type="submit" value="Log in">
