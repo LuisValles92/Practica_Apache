@@ -1,0 +1,7 @@
+language: php
+php:
+  - "7.0"
+ # list any PHP version you want to test against
+ 
+script:
+- php index.php
