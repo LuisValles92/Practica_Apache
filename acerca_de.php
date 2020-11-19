@@ -3,7 +3,7 @@ session_start();
 if ($_SESSION['acceso'] == false) {
     header("Location:index.php");
 }
-if (isset($_SESSION['numero_intentos'])) {
+if (isset($_SESSION['numero_intentos']) {
     $_SESSION['numero_intentos'] = 1;
 }
 ?>
