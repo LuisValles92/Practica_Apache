@@ -1,7 +1,7 @@
 <?php
 session_start();
 // session_destroy();
-if (isset($_SESSION['acceso'])) {
+if ((isset($_SESSION['acceso'])) {
     if ($_SESSION['acceso'] == true) {
         $_SESSION['acceso'] = false;
         echo "<script>setTimeout(() => {
