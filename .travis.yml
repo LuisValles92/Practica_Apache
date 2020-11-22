@@ -1,7 +1,9 @@
 language: php
 php:
   - "7.0"
- # list any PHP version you want to test against
- 
 script:
 - php index.php
+- php Privado1/tirada_dados.php
+- php Privado2/sumar_7.php
+- php Privado3/par_impar.php
+- php acerca_de.php
